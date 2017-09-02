@@ -1,0 +1,90 @@
+textarea {
+	width: 100%;
+	height: 100%;
+	max-height: 250px;
+}
+
+form.login{
+	border: 1px solid gray;
+	box-sizing: border-box;
+	box-shadow: 7px 7px 5px #888888;
+	margin: 50px auto;
+	padding: 25px;
+	height: 250px;
+	width: 300px;
+}
+
+form.login > .btn{
+	margin: 10px;
+}
+
+table.members-table{
+	text-align: center;
+	margin: 10px auto;
+	width: 60%;		
+}
+
+table.members-table tr th{
+	text-align: center;
+	border: solid 1px black;
+}
+
+table.members-table tr,
+table.members-table th,
+table.members-table td{
+	padding: 10px;
+}
+
+table.members-table td{
+	border: solid 1px gray;
+}
+
+.task-data > div {
+	height: 100px;
+}
+
+.task-data,
+.task-data-header{
+	text-align: center;
+}
+
+.task-data-header{
+	border-bottom: 1px solid gray;
+	font-size: 1.2em;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+
+/* MODALS */
+
+#Project-form,
+#Team-form,
+#Member-form,
+#Task-form{
+	box-sizing: border-box;
+	min-width: 30%;
+	max-width: 50%;
+	width: auto;
+	margin: 5% auto;
+	height: 100%;
+}
+
+#Member-form{
+	width: 40%;
+	margin-top: 5px;
+}
+
+/* Clickable table rows */
+
+.clickable{
+	cursor: pointer;
+}
+
+.clickable:hover{
+	background-color: rgba(0, 0, 0, 0.31);
+}
+
+.clicked-member{
+	background-color: rgba(0, 0, 0, 0.31);
+}
